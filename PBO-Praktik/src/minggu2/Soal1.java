@@ -28,5 +28,8 @@ public class Soal1 {
         if(inpt.hasNextLong() == true){
             System.out.println("*long");
         }
+        else{
+            System.out.println("Can't be fitted anywhere");
+        }
     }
 }
