@@ -13,8 +13,9 @@ import java.util.Scanner;
  */
 public class Soal1 {
     Scanner inpt = new Scanner(System.in);
-    void jawabanSoal1(){
+    public void jawabanSoal1(){
         //Soal 1
+        int i;
         System.out.print("can be fitted in : ");
         if(inpt.hasNextByte() == true){
             System.out.println("*byte");

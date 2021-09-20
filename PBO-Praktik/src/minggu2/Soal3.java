@@ -9,6 +9,10 @@ package minggu2;
  *
  * @author Kysuna
  */
-public class Soal2 {
-    
+public class Soal3 {
+    public void soal3(){
+        double x = 92.98;
+        int nx = (int) Math.round(x);
+        System.out.println(nx);
+    }
 }
