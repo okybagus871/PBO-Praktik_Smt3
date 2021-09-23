@@ -14,7 +14,6 @@ public class Soal1 {
     Scanner in = new Scanner(System.in);
     public void jawabanSoal1(){
         //Soal 1
-        int i;
         System.out.print("can be fitted in : ");
         if(in.hasNextByte() == true){
             System.out.println("*byte");
