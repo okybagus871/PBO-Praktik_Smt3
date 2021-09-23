@@ -23,6 +23,9 @@ public class Soal5 {
         if(kataAwal.compareTo(kataAkhir) < kataAkhir.compareTo(kataAwal)){
             System.out.println("No");
         }
+        else{
+            System.out.println("Yes");
+        }
         System.out.println(kataAwal.substring(0, 1).toUpperCase() + kataAwal.substring(1) + ""
                 + " " + kataAkhir.substring(0, 1).toUpperCase() + kataAkhir.substring(1));
     }
