@@ -1,14 +1,14 @@
 /*
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package Soal2;
+package Minggu2.Soal2;
 
 /**
  *
  * @author Kysuna
  */
-public class Constants2 {
+public class Constant2 {
     public static final double CM_PER_INCH = 2.54;
     public static void main(String[] args) {
         double paperWidth = 8.5;
@@ -17,4 +17,5 @@ public class Constants2 {
                 + paperWidth * CM_PER_INCH + " by "
         + paperHeight + CM_PER_INCH);
     }
+    
 }

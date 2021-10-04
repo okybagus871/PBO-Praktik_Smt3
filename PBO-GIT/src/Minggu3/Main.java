@@ -11,7 +11,7 @@ import java.util.Scanner;
  * @author Kysuna
  */
 public class Main {
-
+    
     /**
      * @param args the command line arguments
      */
