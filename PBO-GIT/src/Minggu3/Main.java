@@ -30,7 +30,7 @@ public class Main {
 //        soal2.jawaban();
 
         //SOAL 3
-//        soal3.jawaban();
+        soal3.jawaban();
 
         //SOAL 4
 //        soal4.jawaban();
@@ -39,7 +39,7 @@ public class Main {
 //        soal5.jawaban();
 
         //SOAL 6
-        soal6.jawaban();
+//        soal6.jawaban();
     }
     
 }
