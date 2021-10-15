@@ -23,6 +23,11 @@ public class Barang {
     }
     
     public void tambahStok(int a){
-        this.stok += a;
+        if(a <= 0){
+            System.out.println("Parameter tidak boleh kurang dari 0");
+        }
+        else{
+            this.stok += a;
+        }
     }
 }

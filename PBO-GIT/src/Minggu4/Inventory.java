@@ -25,7 +25,7 @@ public class Inventory {
     void pengadaan(){
         initBarang();
         
-        barangs[0].tambahStok(10);
+        barangs[0].tambahStok(-10);
         showBarang();
     }
 

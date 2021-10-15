@@ -2,20 +2,13 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
-package Minggu4;
+package Minggu5;
 
 /**
  *
  * @author Kysuna
  */
-public class Item {
-    private String name;
-    
-    private Item(){
-        name = "Ipin";
-    }
-    public Item(String name){
-        this();
-        System.out.println(this.name);
-    }
+public class Rikudo {
+    protected String Dojutsu = "Rinnegan";
+    protected String Senjutsu = "Sage Mode";
 }
